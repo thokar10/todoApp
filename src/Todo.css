@@ -1,0 +1,53 @@
+.header h2 {
+  color: azure;
+  text-align: center;
+  font-size: 26px;
+}
+.header {
+  padding: 3px;
+  background-color: black;
+}
+.todo-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 163px;
+  width: 632px;
+  background-color: blanchedalmond;
+  max-width: 100%;
+}
+
+.container input {
+  height: 39px;
+  width: 457px;
+}
+.show-content .show {
+  display: flex;
+
+  justify-content: space-between;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+}
+.show-content {
+  background-color: brown;
+  width: 379px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.checkbox-delete {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+ul {
+  color: black;
+}
