@@ -51,3 +51,31 @@
 ul {
   color: black;
 }
+* {
+  margin: 0px;
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  /* .header {
+    width: 415px;
+  }
+  .todo-body {
+    width: 421px;
+  } */
+  .container input {
+    height: 39px;
+    width: 213px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 87px;
+    width: 632px;
+    background-color: blanchedalmond;
+  }
+  /* }
+  
+  
+  */
+}
